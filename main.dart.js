@@ -51354,7 +51354,7 @@ $C:"$4",
 $R:4,
 $S:324}
 A.a0F.prototype={
-$1(a){return new A.jV("prod"+(a+1)+".jpg",null)},
+$1(a){return new A.jV("assets/images/prod"+(a+1)+".jpg",null)},
 $S:325}
 A.zJ.prototype={
 nG(a){return this.NX(a)},
@@ -51365,7 +51365,7 @@ return A.ax(A.oS(A.nS(a,0,null),"_blank"),$async$nG)
 case 2:if(!c)throw A.c("Could not launch "+a)
 return A.aa(null,r)}})
 return A.ab($async$nG,r)},
-P(a0,a1){var s,r,q,p,o,n,m,l,k,j,i=this,h=null,g="Lobster-Regular",f=A.aD(h,h,B.j,h,108,h,h,h,h),e=t.E,d=A.aD(h,A.cJ(A.b([B.wN,new A.am(B.by,A.aD(h,A.dk("shrimpdish.png",h),h,h,h,h,h,h,180),h)],e),B.B,B.f8,B.t),B.j,h,h,h,h,h,h),c=i.c,b=A.u4(A.jC()),a=B.m.i(0,800)
+P(a0,a1){var s,r,q,p,o,n,m,l,k,j,i=this,h=null,g="Lobster-Regular",f=A.aD(h,h,B.j,h,108,h,h,h,h),e=t.E,d=A.aD(h,A.cJ(A.b([B.wN,new A.am(B.by,A.aD(h,A.dk("assets/images/shrimpdish.png",h),h,h,h,h,h,h,180),h)],e),B.B,B.f8,B.t),B.j,h,h,h,h,h,h),c=i.c,b=A.u4(A.jC()),a=B.m.i(0,800)
 a.toString
 a=A.lQ(A.bx(u.e,A.b6(h,h,a,h,h,h,h,h,g,h,h,34,h,h,h,h,!0,h,h,h,h,h,h,h,h),B.b3,h),h,h)
 s=i.d
@@ -51373,18 +51373,18 @@ r=A.u4(A.jC())
 q=A.au(200,255,255,255)
 p=B.m.i(0,800)
 p.toString
-q=A.aD(h,A.cJ(A.b([new A.hB(1,B.ca,new A.am(B.cR,A.bx(u.B,A.b6(h,h,p,h,h,h,h,h,g,h,h,34,h,h,h,h,!0,h,h,h,h,h,h,h,h),B.b3,h),h),h),new A.am(B.by,A.aD(h,A.dk("rawshrimps.jpg",h),h,h,h,h,h,h,180),h)],e),B.B,B.V,B.t),q,h,h,h,h,h,h)
+q=A.aD(h,A.cJ(A.b([new A.hB(1,B.ca,new A.am(B.cR,A.bx(u.B,A.b6(h,h,p,h,h,h,h,h,g,h,h,34,h,h,h,h,!0,h,h,h,h,h,h,h,h),B.b3,h),h),h),new A.am(B.by,A.aD(h,A.dk("assets/images/rawshrimps.jpg",h),h,h,h,h,h,h,180),h)],e),B.B,B.V,B.t),q,h,h,h,h,h,h)
 p=i.e
 o=A.u4(A.jC())
 n=B.m.i(0,800)
 n.toString
 n=A.bx("Pre\xe7o, qualidade e rapidez",A.b6(h,h,n,h,h,h,h,h,g,h,h,34,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h)
-m=A.dk("bannershrimp.webp",h)
+m=A.dk("assets/images/bannershrimp.webp",h)
 l=B.f9.i(0,700)
 l.toString
 k=i.f
 j=i.r
-l=A.lQ(A.aD(h,A.dg(A.b([new A.am(B.aB,B.Ho,c),new A.ck(B.x,h,h,b,h),new A.am(B.cR,a,h),new A.am(B.aB,B.Hs,s),new A.ck(B.x,h,h,r,h),B.Y,q,B.Y,new A.am(B.aB,B.Hv,p),new A.ck(B.x,h,h,o,h),B.Y,new A.ck(B.x,h,h,n,h),B.jG,A.ib(B.x,A.b([new A.ck(B.x,h,h,m,h),A.aD(h,A.bx("Incompar\xe1vel!",A.b6(h,h,l,h,h,h,h,h,g,h,h,58,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h),h,new A.dL(A.au(150,0,0,0),h,h,B.e5,h,h,B.ay),h,h,B.aC,h,h)],e),B.aK),B.Y,new A.am(B.bz,B.Hu,k),new A.am(B.aC,A.aD(h,A.dg(A.b([A.dk("shrimpdish2.png",h),B.Hq],e),B.B,B.t),h,B.e7,h,h,B.aC,h,h),h),B.bV,new A.am(B.bz,B.Hw,j),B.bV,new A.am(B.bA,A.cJ(A.b([A.hH(B.ew,B.m.i(0,700),36),B.cE,B.jP],e),B.B,B.V,B.t),h),new A.am(B.bA,A.cJ(A.b([A.hH(B.ex,B.m.i(0,700),36),B.jF,A.et(A.bx("Veja nossa localiza\xe7\xe3o no mapa",A.b6(h,h,B.m.i(0,700),h,h,h,h,h,h,h,h,12,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h),new A.PL(i))],e),B.B,B.V,B.t),h)],e),B.az,B.t),h,h,h,h,h,h,1000),h,h)
+l=A.lQ(A.aD(h,A.dg(A.b([new A.am(B.aB,B.Ho,c),new A.ck(B.x,h,h,b,h),new A.am(B.cR,a,h),new A.am(B.aB,B.Hs,s),new A.ck(B.x,h,h,r,h),B.Y,q,B.Y,new A.am(B.aB,B.Hv,p),new A.ck(B.x,h,h,o,h),B.Y,new A.ck(B.x,h,h,n,h),B.jG,A.ib(B.x,A.b([new A.ck(B.x,h,h,m,h),A.aD(h,A.bx("Incompar\xe1vel!",A.b6(h,h,l,h,h,h,h,h,g,h,h,58,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h),h,new A.dL(A.au(150,0,0,0),h,h,B.e5,h,h,B.ay),h,h,B.aC,h,h)],e),B.aK),B.Y,new A.am(B.bz,B.Hu,k),new A.am(B.aC,A.aD(h,A.dg(A.b([A.dk("assets/images/shrimpdish2.png",h),B.Hq],e),B.B,B.t),h,B.e7,h,h,B.aC,h,h),h),B.bV,new A.am(B.bz,B.Hw,j),B.bV,new A.am(B.bA,A.cJ(A.b([A.hH(B.ew,B.m.i(0,700),36),B.cE,B.jP],e),B.B,B.V,B.t),h),new A.am(B.bA,A.cJ(A.b([A.hH(B.ex,B.m.i(0,700),36),B.jF,A.et(A.bx("Veja nossa localiza\xe7\xe3o no mapa",A.b6(h,h,B.m.i(0,700),h,h,h,h,h,h,h,h,12,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h),new A.PL(i))],e),B.B,B.V,B.t),h)],e),B.az,B.t),h,h,h,h,h,h,1000),h,h)
 m=B.m.i(0,800)
 m.toString
 m=A.bx("Fale conosco pelo WhatsApp",A.b6(h,h,m,h,h,h,h,h,g,h,h,34,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h)
@@ -51401,7 +51401,7 @@ aB(){return new A.Fc(B.l)}}
 A.Fc.prototype={
 Of(){var s=this,r=null,q=A.au(200,255,255,255)
 return A.aD(r,new A.am(B.kN,A.cJ(A.b([A.et(A.bx("Produ\xe7\xe3o",A.b6(r,r,B.m.i(0,700),r,r,r,r,r,r,r,r,8,r,B.N,r,r,!0,r,r,r,r,r,r,r,r),r,r),new A.Z_(s)),B.av,A.et(A.bx("Beneficiamento",A.b6(r,r,B.m.i(0,700),r,r,r,r,r,r,r,r,8,r,B.N,r,r,!0,r,r,r,r,r,r,r,r),r,r),new A.Z0(s)),B.av,A.et(A.bx("Produtos",A.b6(r,r,B.m.i(0,700),r,r,r,r,r,r,r,r,8,r,B.N,r,r,!0,r,r,r,r,r,r,r,r),r,r),new A.Z1(s)),B.av,A.et(A.bx("Sobre",A.b6(r,r,B.m.i(0,700),r,r,r,r,r,r,r,r,8,r,B.N,r,r,!0,r,r,r,r,r,r,r,r),r,r),new A.Z2(s)),B.av,A.et(A.bx("Contato",A.b6(r,r,B.m.i(0,700),r,r,r,r,r,r,r,r,8,r,B.N,r,r,!0,r,r,r,r,r,r,r,r),r,r),new A.Z3(s)),B.av],t.E),B.B,B.q8,B.t),r),q,r,r,r,r,r,r)},
-P(a,b){var s,r=this,q=null,p=A.au(200,255,255,255),o=A.dk("assets/logoaquarium.png",q),n=A.iO(A.aD(q,q,q,q,q,q,q,q,q)),m=B.m.i(0,800)
+P(a,b){var s,r=this,q=null,p=A.au(200,255,255,255),o=A.dk("assets/images/logoaquarium.png",q),n=A.iO(A.aD(q,q,q,q,q,q,q,q,q)),m=B.m.i(0,800)
 m.toString
 m=A.bx("Aquarium Pescados",A.b6(q,q,m,q,q,q,q,q,"MsMadi-Regular",q,q,24,q,B.N,q,q,!0,q,q,q,q,q,q,q,q),q,q)
 s=t.E
@@ -51436,7 +51436,7 @@ $0(){var s=this.a
 s.d=!s.d},
 $S:0}
 A.rj.prototype={
-P(a,b){var s,r=this,q=null,p=A.au(200,255,255,255),o=A.dk("assets/logoaquarium.png",q),n=A.iO(A.aD(q,q,q,q,q,q,q,q,q)),m=B.m.i(0,800)
+P(a,b){var s,r=this,q=null,p=A.au(200,255,255,255),o=A.dk("assets/images/logoaquarium.png",q),n=A.iO(A.aD(q,q,q,q,q,q,q,q,q)),m=B.m.i(0,800)
 m.toString
 s=t.E
 p=A.aD(q,A.cJ(A.b([o,n,A.bx("Aquarium Pescados",A.b6(q,q,m,q,q,q,q,q,"MsMadi-Regular",q,q,24,q,B.N,q,q,!0,q,q,q,q,q,q,q,q),q,q),B.cE],s),B.B,B.V,B.t),p,q,68,q,q,q,q)
@@ -51472,7 +51472,7 @@ return A.ax(A.oS(A.nS(a,0,null),"_blank"),$async$nT)
 case 2:if(!c)throw A.c("Could not launch "+a)
 return A.aa(null,r)}})
 return A.ab($async$nT,r)},
-P(a7,a8){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a=this,a0=null,a1="Lobster-Regular",a2=A.aD(a0,a0,B.j,a0,68,a0,a0,a0,a0),a3=t.E,a4=A.aD(a0,A.cJ(A.b([B.kR,new A.am(B.by,A.tq(A.dk("shrimpdish.png",a0),a0,180),a0)],a3),B.B,B.f8,B.t),B.j,a0,a0,a0,a0,a0,a0),a5=a.c,a6=A.a1t(!0,250,0.6)
+P(a7,a8){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a=this,a0=null,a1="Lobster-Regular",a2=A.aD(a0,a0,B.j,a0,68,a0,a0,a0,a0),a3=t.E,a4=A.aD(a0,A.cJ(A.b([B.kR,new A.am(B.by,A.tq(A.dk("assets/images/shrimpdish.png",a0),a0,180),a0)],a3),B.B,B.f8,B.t),B.j,a0,a0,a0,a0,a0,a0),a5=a.c,a6=A.a1t(!0,250,0.6)
 a6=A.a1u(A.jC(),a6)
 s=B.m.i(0,800)
 s.toString
@@ -51483,19 +51483,19 @@ q=A.a1u(A.jC(),q)
 p=A.au(200,255,255,255)
 o=B.m.i(0,800)
 o.toString
-p=A.aD(a0,A.cJ(A.b([new A.hB(1,B.ca,new A.am(B.wE,A.bx(u.B,A.b6(a0,a0,o,a0,a0,a0,a0,a0,a1,a0,a0,28,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0),B.b3,a0),a0),a0),new A.am(B.by,A.aD(a0,A.dk("rawshrimps.jpg",a0),a0,a0,a0,a0,a0,a0,180),a0)],a3),B.B,B.V,B.t),p,a0,a0,a0,a0,a0,a0)
+p=A.aD(a0,A.cJ(A.b([new A.hB(1,B.ca,new A.am(B.wE,A.bx(u.B,A.b6(a0,a0,o,a0,a0,a0,a0,a0,a1,a0,a0,28,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0),B.b3,a0),a0),a0),new A.am(B.by,A.aD(a0,A.dk("assets/images/rawshrimps.jpg",a0),a0,a0,a0,a0,a0,a0,180),a0)],a3),B.B,B.V,B.t),p,a0,a0,a0,a0,a0,a0)
 o=a.e
 n=A.a1t(!0,250,0.6)
 n=A.a1u(A.jC(),n)
 m=B.m.i(0,800)
 m.toString
 m=A.bx("Pre\xe7o, qualidade e rapidez",A.b6(a0,a0,m,a0,a0,a0,a0,a0,a1,a0,a0,28,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0),a0,a0)
-l=A.dk("bannershrimp.webp",a0)
+l=A.dk("assets/images/bannershrimp.webp",a0)
 k=B.f9.i(0,700)
 k.toString
 k=A.ib(B.x,A.b([l,A.aD(a0,A.bx("Incompar\xe1vel!",A.b6(a0,a0,k,a0,a0,a0,a0,a0,a1,a0,a0,58,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0),a0,a0),a0,new A.dL(A.au(150,0,0,0),a0,a0,B.e5,a0,a0,B.ay),a0,a0,B.aC,a0,a0)],a3),B.aK)
 l=a.f
-j=A.aD(a0,A.dg(A.b([A.dk("shrimpdish2.png",a0),B.t5],a3),B.B,B.t),a0,B.e7,a0,a0,B.aC,a0,a0)
+j=A.aD(a0,A.dg(A.b([A.dk("assets/images/shrimpdish2.png",a0),B.t5],a3),B.B,B.t),a0,B.e7,a0,a0,B.aC,a0,a0)
 i=a.r
 h=A.cJ(A.b([A.hH(B.ew,B.m.i(0,700),36),B.cE,B.jP],a3),B.B,B.V,B.t)
 g=A.cJ(A.b([A.hH(B.ex,B.m.i(0,700),36),B.jF,A.et(A.bx("Veja nossa localiza\xe7\xe3o no mapa",A.b6(a0,a0,B.m.i(0,700),a0,a0,a0,a0,a0,a0,a0,a0,12,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0),a0,a0),new A.PS(a))],a3),B.B,B.V,B.t)
@@ -51519,7 +51519,7 @@ return A.ax(A.oS(A.nS(a,0,null),"_blank"),$async$nU)
 case 2:if(!c)throw A.c("Could not launch "+a)
 return A.aa(null,r)}})
 return A.ab($async$nU,r)},
-P(a7,a8){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b=this,a=null,a0="Lobster-Regular",a1=A.aD(a,a,B.j,a,108,a,a,a,a),a2=t.E,a3=A.aD(a,A.cJ(A.b([B.kR,new A.am(B.by,A.aD(a,A.dk("shrimpdish.png",a),a,a,a,a,a,a,180),a)],a2),B.B,B.f8,B.t),B.j,a,a,a,a,a,a),a4=b.c,a5=A.u4(A.jC()),a6=B.m.i(0,800)
+P(a7,a8){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b=this,a=null,a0="Lobster-Regular",a1=A.aD(a,a,B.j,a,108,a,a,a,a),a2=t.E,a3=A.aD(a,A.cJ(A.b([B.kR,new A.am(B.by,A.aD(a,A.dk("assets/images/shrimpdish.png",a),a,a,a,a,a,a,180),a)],a2),B.B,B.f8,B.t),B.j,a,a,a,a,a,a),a4=b.c,a5=A.u4(A.jC()),a6=B.m.i(0,800)
 a6.toString
 a6=A.lQ(A.bx(u.e,A.b6(a,a,a6,a,a,a,a,a,a0,a,a,28,a,a,a,a,!0,a,a,a,a,a,a,a,a),B.b3,a),a,a)
 s=b.d
@@ -51527,18 +51527,18 @@ r=A.u4(A.jC())
 q=A.au(200,255,255,255)
 p=B.m.i(0,800)
 p.toString
-q=A.aD(a,A.cJ(A.b([new A.hB(1,B.ca,new A.am(B.cR,A.bx(u.B,A.b6(a,a,p,a,a,a,a,a,a0,a,a,28,a,a,a,a,!0,a,a,a,a,a,a,a,a),B.b3,a),a),a),new A.am(B.by,A.aD(a,A.dk("rawshrimps.jpg",a),a,a,a,a,a,a,180),a)],a2),B.B,B.V,B.t),q,a,a,a,a,a,a)
+q=A.aD(a,A.cJ(A.b([new A.hB(1,B.ca,new A.am(B.cR,A.bx(u.B,A.b6(a,a,p,a,a,a,a,a,a0,a,a,28,a,a,a,a,!0,a,a,a,a,a,a,a,a),B.b3,a),a),a),new A.am(B.by,A.aD(a,A.dk("assets/images/rawshrimps.jpg",a),a,a,a,a,a,a,180),a)],a2),B.B,B.V,B.t),q,a,a,a,a,a,a)
 p=b.e
 o=A.u4(A.jC())
 n=B.m.i(0,800)
 n.toString
 n=A.bx("Pre\xe7o, qualidade e rapidez",A.b6(a,a,n,a,a,a,a,a,a0,a,a,28,a,a,a,a,!0,a,a,a,a,a,a,a,a),a,a)
-m=A.dk("bannershrimp.webp",a)
+m=A.dk("assets/images/bannershrimp.webp",a)
 l=B.f9.i(0,700)
 l.toString
 l=A.ib(B.x,A.b([m,A.aD(a,A.bx("Incompar\xe1vel!",A.b6(a,a,l,a,a,a,a,a,a0,a,a,58,a,a,a,a,!0,a,a,a,a,a,a,a,a),a,a),a,new A.dL(A.au(150,0,0,0),a,a,B.e5,a,a,B.ay),a,a,B.aC,a,a)],a2),B.aK)
 m=b.f
-k=A.aD(a,A.dg(A.b([A.dk("shrimpdish2.png",a),B.t5],a2),B.B,B.t),a,B.e7,a,a,B.aC,a,a)
+k=A.aD(a,A.dg(A.b([A.dk("assets/images/shrimpdish2.png",a),B.t5],a2),B.B,B.t),a,B.e7,a,a,B.aC,a,a)
 j=b.r
 i=A.cJ(A.b([A.hH(B.ew,B.m.i(0,700),36),B.cE,B.jP],a2),B.B,B.V,B.t)
 h=A.cJ(A.b([A.hH(B.ex,B.m.i(0,700),36),B.jF,A.et(A.bx("Veja nossa localiza\xe7\xe3o no mapa",A.b6(a,a,B.m.i(0,700),a,a,a,a,a,a,a,a,12,a,a,a,a,!0,a,a,a,a,a,a,a,a),a,a),new A.PV(b))],a2),B.B,B.V,B.t)
@@ -53559,7 +53559,7 @@ B.tC=new A.jJ(0,"resumed")
 B.tD=new A.jJ(1,"inactive")
 B.tE=new A.jJ(2,"paused")
 B.tF=new A.jJ(3,"detached")
-B.c0=new A.lH("assets/shrimpbackground2.jpg",null,null)
+B.c0=new A.lH("assets/images/shrimpbackground2.jpg",null,null)
 B.H=new A.jL(0,"up")
 B.a1=new A.jL(1,"right")
 B.F=new A.jL(2,"down")
