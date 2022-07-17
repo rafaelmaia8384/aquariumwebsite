@@ -1,10 +1,34 @@
 version: '3'
 services:
-  web:
-    image: nginx
-    container_name: aquariumwebsite
-    restart: always
-    volumes:
-      - .:/usr/share/nginx/html
+  nginx:
+    image: jonasal/nginx-certbot:latest
+    restart: unless-stopped
+    environment:
+      # Required
+      CERTBOT_EMAIL: contato@aquariumdobrasil.com
+      # Optional (Defaults)
+      DHPARAM_SIZE: 2048
+      ELLIPTIC_CURVE: secp256r1
+      RENEWAL_INTERVAL: 8d
+      RSA_KEY_SIZE: 2048
+      STAGING: 0
+      USE_ECDSA: 1
+      # Advanced (Defaults)
+      CERTBOT_AUTHENTICATOR: webroot
+      CERTBOT_DNS_PROPAGATION_SECONDS: ""
+      DEBUG: 0
+      USE_LOCAL_CA: 0
+      # variable names are space-separated
+      ENVSUBST_VARS: FQDN
+      FQDN: aquariumdobrasil.com
+
     ports:
-      - "80:80"
+      - 80:80
+      - 443:443
+    volumes:
+      - nginx_secrets:/etc/letsencrypt
+      - ./user_conf.d:/etc/nginx/user_conf.d
+      - .:/usr/share/nginx/html
+
+volumes:
+  nginx_secrets:
